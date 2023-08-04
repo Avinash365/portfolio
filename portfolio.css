@@ -1,0 +1,172 @@
+
+
+/*.header{
+  background-color: rgba(100, 102, 104, 0.688);
+  text-align: center; 
+  height: auto; 
+  margin-top: 0px;
+ /* padding: 0.5px;*/ 
+
+
+
+
+/* the navigation container */ 
+body{
+  width: 90%;
+  margin: auto;
+}
+.topnav {   
+  display: flex; 
+  justify-content:flex-start;  
+  align-items: center;
+   width: 100%; 
+   height: fit-content; 
+   margin: auto; 
+   background-color: rgb(98, 161, 215); 
+   border-radius: 5px;
+  
+  }  
+  #navbar{
+    overflow:hidden;
+    position: sticky; 
+    top: 0px; 
+  }
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: rgba(26, 23, 23, 0.811);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;  
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+   /* background-color: #e9e4e4b4;*/ 
+    color: #878484d4;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }  
+   
+  /*style logo in navingation */ 
+  .topnav img{
+     margin-top: 8px; 
+  }  
+  /*style body */ 
+  .body style{
+      size: 30px;
+  }
+  .para{ 
+    font-style: italic; 
+    float:right;
+
+  }  
+  
+  .container{  
+    display: flex;  
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:85%; 
+    height: auto;
+    margin: auto; 
+    border: solid; 
+    color: black; 
+  }  
+  .container.a{  
+    margin-left: 40px; 
+    margin-top: 10px;
+    width: 55%;;  
+    height: 66%;  
+    float: left;     
+    text-align: justify;
+    
+  }  
+  @media (max-width:1400px){
+    .container{
+      flex-direction: column;
+    } 
+    .container.a{
+      width: 100%;
+      margin-left: 0px;
+    }
+      
+  }
+  .container.c{ 
+    margin: 10px; 
+    width: 400px;; 
+    height:auto; 
+  }
+  .imglink{  
+    font-size: 40px;  
+    width: 100%;
+    display: flex; 
+    justify-content:space-around;
+    height:auto; 
+  }  
+  .textlink{ 
+    width: 90%;
+    border: .015px #0b5393;   
+    border-style: solid groove;  
+    border-radius: 5px;
+    margin: auto; 
+    padding: 5px;
+    height:auto;  
+    text-align: center;   
+    font-size: large;
+  } 
+  .container p{
+    font-family: 'Caveat', cursive; 
+    font-size: 55px; 
+    color:#0b5393; 
+  } 
+  a{
+    text-decoration: none;  
+    color: #0b2493d2;
+  } 
+  a:hover{
+      color: rgb(239, 9, 66);
+  } 
+  .education{
+    height: 355px;   
+    color: aliceblue;
+    background-color: #0b5393;  
+    padding: 15px;  
+    padding-top:10px ;  
+    border-radius: 5px;
+  } 
+  .skils{
+    height: 350px; 
+    background-color: #0b53936a; 
+    padding: 15px;  
+    border-radius: 5px; 
+  } 
+  .project{
+    height: 350px;  
+    color: aliceblue;
+    background-color: #0b5393; 
+    padding: 15px;  
+    border-radius: 5px;
+  }
+  
+  .content1{
+    width: 100%;  
+    padding: 20px; 
+  } 
+  .content1 p{
+    display: inline;  
+    font-size: medium; 
+    margin-left: 50px;
+  } 
+  .content1 li{  
+    display: flexbox;
+    font-size:x-large;
+  } 
+  .skils li{
+    font-size: x-large; 
+    margin: 10px;
+  } 
